@@ -31,4 +31,3 @@ last_user = users.peek()
 print(last_user)
 
 print(users.get_all())
-
