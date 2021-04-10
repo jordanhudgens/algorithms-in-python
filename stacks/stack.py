@@ -15,19 +15,3 @@ class Stack():
     def get_all(self):
         return self.items
 
-users = Stack()
-users.push("Jordan")
-users.push("Tiffany")
-users.push("Kristine")
-
-print(users.get_all())
-
-removed_user = users.pop()
-
-print(removed_user)
-
-last_user = users.peek()
-
-print(last_user)
-
-print(users.get_all())

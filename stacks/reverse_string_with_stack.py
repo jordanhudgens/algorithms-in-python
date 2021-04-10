@@ -9,10 +9,10 @@ def reverse_string(val):
     updated_str = ""
 
     while not (len(stack.get_all()) == 0):
-      updated_str += stack.pop()
+        updated_str += stack.pop()
 
     return updated_str
 
-name = "Jordan"
+name = "Kristine"
 
 print(reverse_string(name))
